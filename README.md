@@ -3,4 +3,7 @@ GAM 305 - Team Sonic Project Repository
 
 ## Module Two Team Project Plan
 
+Michael Bailey
+
+
 *Drafting in progress...*
