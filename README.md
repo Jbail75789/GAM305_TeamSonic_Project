@@ -13,12 +13,12 @@ README Draft Updated By: Charlie Upshaw
 
 ## Team Sonic Members
 
-* Megan Mitchell (Team Coordinator)
-* Michael Bailey
-* Charlie Upshaw
-* Cameron Clarke
-* Steven Varga
-* Suprieme Addison
+* Megan Mitchell (Team Coordinator) - ?
+* Michael Bailey - Producer / Narravtive / Enviroment/Tech artists
+* Charlie Upshaw - Gamneplay Programmer
+* Cameron Clarke - ?
+* Steven Varga - Level Designer/Gameplay Programmer
+* Suprieme Addison- Systems / UI
 
 
 ## Scenario Selection
