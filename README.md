@@ -21,19 +21,60 @@ README Draft Updated By: Charlie Upshaw
 * Suprieme Addison
 
 
- Scenario Selection
+## Scenario Selection
 
  Scenario4: Third-Person
+
+   * The team selected the third-person scenario because it best supports the gameplay style we wanted to create. 
+   * The game will focus on stealth-based infiltration, exploration, and strategic decision-making within an alien apocalypse setting.
+   * The player will navigate hostile environments while avoiding enemies, solving puzzles, collecting important items, and completing objectives.
+
+
+## Additional Elements Based on Scenario
+
+ **Advanced Enemy AI Systems**
+   * Implement enemy AI behaviors including patrol routes, player detection, searching behaviors, and combat responses.
+   * The game will include enemy AI with patrol behaviors, detection systems, and reactions to player actions. A boss AI encounter will also be included as a major challenge requiring players to use strategy and collected resources.
+   * The player will have abilities that support stealth gameplay and allow different approaches to completing objectives. Players will need to decide when to avoid enemies, use abilities, or engage threats.
+   * Collectible items will provide advantages during gameplay, such as extra damage against bosses or vital resources. Environmental hazards and traps will create additional challenges while navigating levels.
+
+ **Interactive Environment and Puzzle Systems**
+   * Create environmental interactions that encourage exploration and problem-solving.
+   * The environment will include interactive objects, locked areas, puzzles, and alternative pathways. Players will need to explore the environment and solve challenges to progress.
+
+
+ **Stealth Mechanics and Player Abilities**
+   * Implement player abilities that support strategic gameplay, including avoiding enemies, navigating environments, Detection meter, and overcoming obstacles.
+
+ **Traps and Environmental Hazards**
+   * Add traps and hazards that create additional challenges for both the player and enemies.
+   * Use environmental elements to encourage careful planning and decision-making.
+
 
 **Contributors:** Michael Bailey, Charlie Upshaw, Cameron Clarke, Steven Varga, Suprieme Addison
 
 
 ## Brainstorming
 
-*(Template will be filled in soon.)*
+The team discussed creating a third-person stealth game set during an alien apocalypse. The player will take the role of a character attempting to survive and complete objectives while navigating areas controlled by hostile alien enemies.
+
+The current gameplay ideas include:
+
+* A stealth-focused experience inspired by games such as Assassin's Creed, Dishonored, and The Last of Us.
+* Alien enemies with different behaviors, including stationary enemies, patrol units, and stronger boss encounters.
+* A level design focused on exploration, puzzles, locked doors, and alternate paths.
+* Environmental puzzles such as keypad systems, codes, and interactive objects required to progress.
+* Collectibles that provide advantages, such as discovering enemy weaknesses or unlocking stronger equipment before boss encounters.
+* A final boss encounter where preparation and collected resources influence the player's chances of success.
+* Environmental traps and hazards designed around the alien theme.
+* Player abilities that allow different approaches to stealth and exploration.
+
+The team will continue refining the setting, gameplay mechanics, and level design while ensuring features remain achievable within the project timeline.
+
+**Contributors:** Michael Bailey, Charlie Upshaw, Cameron Clarke, Steven Varga, Suprieme Addison*
 
 
-##Team Meeting Schedule
+## Team Meeting Schedule
 
 * We plan to hold one team meeting each week to discuss progress, assign tasks, and address any questions or concerns.
 * Additional meetings may be scheduled before major assignment deadlines or for other reasons if needed.
@@ -111,7 +152,7 @@ Progress Tracking:
 * Track completed features and remaining bugs.
 * Team members will review changes through pull requests.
 
- Communication Plan
+## Communication Plan
 
 *Primary method of communication: Discord
 
