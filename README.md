@@ -17,7 +17,7 @@ README Draft Updated By: Charlie Upshaw
 * Michael Bailey - Producer / Narravtive /  Enviroment/Tech artists
 * Charlie Upshaw - Gameplay Programmer / Enviroment/Tech artists
 * Cameron Clarke - ?
-* Steven Varga - Level Designer/ Narrative / Gameplay Programmer
+* Steven Varga - Level Designer / Narrative / Gameplay Programmer / Systems / UI
 * Suprieme Addison- Systems/ UI  / Level Design
 
 
