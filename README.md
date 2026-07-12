@@ -16,9 +16,9 @@ README Draft Updated By: Charlie Upshaw
 * Megan Mitchell (Team Coordinator) - ?
 * Michael Bailey - Producer / Narravtive /  Enviroment/Tech artists
 * Charlie Upshaw - Gameplay Programmer / Enviroment/Tech artists
-* Cameron Clarke - ?
+* Cameron Clarke - Gameplay Programmer / Systems/UI
 * Steven Varga - Level Designer / Narrative / Gameplay Programmer / Systems / UI
-* Suprieme Addison- Systems/ UI  / Gameplay Programmer
+* Suprieme Addison- Systems/UI  / Gameplay Programmer
 
 
 ## Scenario Selection
