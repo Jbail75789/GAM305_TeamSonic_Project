@@ -174,6 +174,6 @@ Progress Tracking:
 
 ## Contributors
 
-- **Michael Bailey** - Created repository
+- **Michael Bailey** - Created repository and Discord server
 - **Charlie Upshaw** - Created initial README draft
 - **Steven Varga** - Assisted editing the initial README draft
