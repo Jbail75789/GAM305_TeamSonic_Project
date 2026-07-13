@@ -18,7 +18,7 @@ README Draft Updated By: Charlie Upshaw
 * Charlie Upshaw - Gameplay Programmer / Enviroment/Tech artists
 * Cameron Clarke - Gameplay Programmer / Systems/UI / Producer & Narrative
 * Steven Varga - Level Designer / Producer & Narrative / Gameplay Programmer / Systems / UI
-* Suprieme Addison- Systems/UI  / Gameplay Programmer
+* Suprieme Addison- Systems/UI  / Gameplay Programmer / Environment/ Tech artists
 
 
 ## Scenario Selection
