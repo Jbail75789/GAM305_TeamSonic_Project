@@ -13,17 +13,17 @@ README Draft Updated By: Charlie Upshaw
 
 ## Team Sonic Members
 
-* Megan Mitchell (Team Coordinator) - Gameplay Programmer / Systems/UI Designer
-* Michael Bailey - Producer & Narravtive /  Enviroment/Tech artists
-* Charlie Upshaw - Gameplay Programmer / Enviroment/Tech artists
+* Michael Bailey (Team Coordinator) - Producer & Narrative / Environment/Tech Artist
+* Megan Mitchell - Gameplay Programmer / Systems/UI Designer / Environment/Tech Artist
+* Charlie Upshaw - Gameplay Programmer / Environment/Tech Artist
 * Cameron Clarke - Gameplay Programmer / Systems/UI / Producer & Narrative
 * Steven Varga - Level Designer / Producer & Narrative / Gameplay Programmer / Systems / UI
-* Suprieme Addison- Systems/UI  / Gameplay Programmer / Environment/ Tech artists
+* Suprieme Addison - Systems/UI / Gameplay Programmer / Environment/Tech Artist
 
 
 ## Scenario Selection
 
- Scenario4: Third-Person
+Scenario 4: Third-Person
 
    * The team selected the third-person scenario because it best supports the gameplay style we wanted to create. 
    * The game will focus on stealth-based infiltration, exploration, and strategic decision-making within an alien apocalypse setting.
@@ -44,7 +44,7 @@ README Draft Updated By: Charlie Upshaw
 
 
  **Stealth Mechanics and Player Abilities**
-   * Implement player abilities that support strategic gameplay, including avoiding enemies, navigating environments, Detection meter, and overcoming obstacles.
+   * Implement player abilities that support strategic gameplay, including avoiding enemies, navigating environments, using a detection meter, and overcoming obstacles.
 
  **Traps and Environmental Hazards**
    * Add traps and hazards that create additional challenges for both the player and enemies.
@@ -82,7 +82,6 @@ The team will continue refining the setting, gameplay mechanics, and level desig
 **Contributors:** Michael Bailey, Charlie Upshaw, Steven Varga
 
 
-
 ## Development Timeline
 
 ### Module 2: Planning
@@ -107,7 +106,7 @@ The team will continue refining the setting, gameplay mechanics, and level desig
 * Replace placeholder assets with final assets.
 * Add audio, menus, and refine any rough elements.
 * Improve enemy AI and gameplay mechanics.
-* Test game systems any last minute small additions.
+* Test game systems and make any last-minute small additions.
 * Fix bugs and optimize performance.
 
 ### Module 7: Final Submission
@@ -152,6 +151,14 @@ Progress Tracking:
 * Track completed features and remaining bugs.
 * Team members will review changes through pull requests.
 
+### Systems/UI and Environment/Tech Development Goals
+
+For the Alpha stage, the game will include a basic HUD with a health bar, objective text, interaction prompts, a collectible counter, and an early version of the stealth detection meter. The environment will also include a basic spaceship layout, placeholder textures, simple lighting, and early environmental assets.
+
+For the Beta stage, the UI will be improved with clearer menus, polished HUD elements, updated interaction prompts, a refined detection meter, and a boss health bar for the final encounter. The environment will be improved with final or updated textures, better lighting, polished assets, and visual details that support the alien spaceship theme.
+
+**Contributor:** Megan Mitchell
+
 ## Communication Plan
 
 *Primary method of communication: Discord
@@ -163,7 +170,7 @@ Progress Tracking:
 **Contributors:** Charlie Upshaw, Steven Varga
 
 
- Task Assignment & Progress Tracking
+## Task Assignment & Progress Tracking
 
 *Tasks and Progress tracking: Will be assigned in the proper Discord Channel
 
@@ -174,6 +181,7 @@ Progress Tracking:
 
 ## Contributors
 
-- **Michael Bailey** - Created repository and Discord server
+- **Michael Bailey** - Created the repository and Discord server and served as Team Coordinator.
 - **Charlie Upshaw** - Created initial README draft
 - **Steven Varga** - Assisted editing the initial README draft
+- **Megan Mitchell** - Contributed Systems/UI and Environment/Tech development goals, including the HUD, health bar, objective text, interaction prompts, collectible counter, stealth detection meter, menus, boss health bar, spaceship layout, textures, lighting, and environmental assets.
