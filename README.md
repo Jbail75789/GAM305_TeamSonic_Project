@@ -192,7 +192,7 @@ For the Beta stage, the UI will be improved with clearer menus, polished HUD ele
 ## Module Three Project Log - Team Development: QA and Testing Plan. Team Sonic
 
 
-Team Communication and Collaborative Method
+# Team Communication and Collaborative Method
 
 Communication Platform: Our team uses a dedicated Discord Sever with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
 
@@ -200,7 +200,7 @@ Collaborative methods: We use our communication platforms to update project logs
 
 
 
-Play Test (Alpha Stage) A block out level will be designed with testing that will focus completely on the mechanics in the environment. Mechanics such as basic player inputs(walking, crouching, jumping), core AI detection cones, AI Movement, and basic level layouts.
+## Play Test (Alpha Stage) A block out level will be designed with testing that will focus completely on the mechanics in the environment. Mechanics such as basic player inputs(walking, crouching, jumping), core AI detection cones, AI Movement, and basic level layouts.
 
 
 ## Gameplay Systems and Environment/Tech Testing Plan
