@@ -189,7 +189,7 @@ For the Beta stage, the UI will be improved with clearer menus, polished HUD ele
 
 
 
-Module Three Project Log - Team Development: QA and Testing Plan. Team Sonic
+##Module Three Project Log - Team Development: QA and Testing Plan. Team Sonic
 
 
 Team Communication and Collaborative Method
