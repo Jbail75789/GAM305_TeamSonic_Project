@@ -189,10 +189,10 @@ For the Beta stage, the UI will be improved with clearer menus, polished HUD ele
 
 
 
-## Module Three Project Log - Team Development: QA and Testing Plan. Team Sonic
+# Module Three Project Log - Team Development: QA and Testing Plan. Team Sonic
 
 
-# Team Communication and Collaborative Method
+## Team Communication and Collaborative Method
 
 Communication Platform: Our team uses a dedicated Discord Sever with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
 
@@ -228,7 +228,7 @@ Collaborative methods: We use our communication platforms to update project logs
 
 
 
-Demo (Beta Stage) Testing at this stage ensures that the complete 5-room level layout loads accurately and all interactive elements function properly. This means verifying that invisible zone triggers (such as doors opening, objectives updating, and enemies spawning) fire correctly as the player moves through the map. Because this happens before final art integration, the focus is entirely on verifying that the level structure, lighting, and core gameplay loops work seamlessly from start to finish using the geometric gray-box environment.
+## Demo (Beta Stage) Testing at this stage ensures that the complete 5-room level layout loads accurately and all interactive elements function properly. This means verifying that invisible zone triggers (such as doors opening, objectives updating, and enemies spawning) fire correctly as the player moves through the map. Because this happens before final art integration, the focus is entirely on verifying that the level structure, lighting, and core gameplay loops work seamlessly from start to finish using the geometric gray-box environment.
 
 
 ### Gameplay Systems Beta Testing Checklist
