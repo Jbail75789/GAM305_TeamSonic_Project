@@ -200,7 +200,8 @@ Collaborative methods: We use our communication platforms to update project logs
 
 
 
-## Play Test (Alpha Stage) A block out level will be designed with testing that will focus completely on the mechanics in the environment. Mechanics such as basic player inputs(walking, crouching, jumping), core AI detection cones, AI Movement, and basic level layouts.
+## Play Test (Alpha Stage) 
+A block out level will be designed with testing that will focus completely on the mechanics in the environment. Mechanics such as basic player inputs(walking, crouching, jumping), core AI detection cones, AI Movement, and basic level layouts.
 
 
 ## Gameplay Systems and Environment/Tech Testing Plan
@@ -228,7 +229,8 @@ Collaborative methods: We use our communication platforms to update project logs
 
 
 
-## Demo (Beta Stage) Testing at this stage ensures that the complete 5-room level layout loads accurately and all interactive elements function properly. This means verifying that invisible zone triggers (such as doors opening, objectives updating, and enemies spawning) fire correctly as the player moves through the map. Because this happens before final art integration, the focus is entirely on verifying that the level structure, lighting, and core gameplay loops work seamlessly from start to finish using the geometric gray-box environment.
+## Demo (Beta Stage) 
+Testing at this stage ensures that the complete 5-room level layout loads accurately and all interactive elements function properly. This means verifying that invisible zone triggers (such as doors opening, objectives updating, and enemies spawning) fire correctly as the player moves through the map. Because this happens before final art integration, the focus is entirely on verifying that the level structure, lighting, and core gameplay loops work seamlessly from start to finish using the geometric gray-box environment.
 
 
 ### Gameplay Systems Beta Testing Checklist
@@ -254,11 +256,12 @@ Collaborative methods: We use our communication platforms to update project logs
 
 
 
-Code Release (Final build) Checking the final compiled code release demo against this master test plan to ensure all finalized custom or alternative environmental assets are fully integrated, the game compiles completely without errors, there are no game-breaking memory leaks, and all gameplay loops run smoothly from start to finish.
+## Code Release (Final build) 
+Checking the final compiled code release demo against this master test plan to ensure all finalized custom or alternative environmental assets are fully integrated, the game compiles completely without errors, there are no game-breaking memory leaks, and all gameplay loops run smoothly from start to finish.
 
 
 
-Updating the Test Plan
+## Updating the Test Plan
 Process: As mechanics are added, modified, or removed during our weekly production cycles, the Producer will update this checklist in the GitHub README to accurately match our current Game Design Document
 
 Review: Any structural adjustments to scope must be discussed in Discord and documented through explicit GitHub commits to prevent discrepancies between gameplay systems and testing parameters.
