@@ -262,9 +262,9 @@ Checking the final compiled code release demo against this master test plan to e
 
 
 ## Updating the Test Plan
-Process: As mechanics are added, modified, or removed during our weekly production cycles, the Producer will update this checklist in the GitHub README to accurately match our current Game Design Document
+- **Process:** As mechanics are added, modified, or removed during our weekly production cycles, the Producer will update this checklist in the GitHub README to accurately match our current Game Design Document
 
-Review: Any structural adjustments to scope must be discussed in Discord and documented through explicit GitHub commits to prevent discrepancies between gameplay systems and testing parameters.
+- **Review:** Any structural adjustments to scope must be discussed in Discord and documented through explicit GitHub commits to prevent discrepancies between gameplay systems and testing parameters.
 
 
 
