@@ -194,7 +194,7 @@ For the Beta stage, the UI will be improved with clearer menus, polished HUD ele
 
 ## Team Communication and Collaborative Method
 
-Communication Platform: Our team uses a dedicated Discord Sever with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
+Communication Platform: Our team uses a dedicated Discord Server with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
 
 Collaborative methods: We use our communication platforms to update project logs, schedules, and testing parameters directly to our teammates. Hosting our documentation in the main repository's README.md allows us to stay organized around our busy schedules, ensuring full transparency throughout the development process.
 
