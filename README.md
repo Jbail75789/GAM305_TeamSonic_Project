@@ -216,6 +216,25 @@ A block out level will be designed with testing that will focus completely on th
 * Basic stealth mechanics and enemy detection systems function.
 * Placeholder assets have correct placement and functionality.
 
+### Systems/UI and Interactive Object Alpha Pass/Fail Checklist
+
+The Alpha test will focus on making sure the basic systems are present and working. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Interaction prompt appears when the player approaches a usable object. | ☐ | ☐ |
+| Interaction prompt disappears when the player moves away. | ☐ | ☐ |
+| Basic doors open and close correctly. | ☐ | ☐ |
+| Locked doors stay closed until the correct keycard or code is used. | ☐ | ☐ |
+| Keycards and pickups can be collected successfully. | ☐ | ☐ |
+| Keypads accept the correct code. | ☐ | ☐ |
+| Incorrect keypad codes are rejected. | ☐ | ☐ |
+| Objective text appears and updates after completing a task. | ☐ | ☐ |
+| The early stealth detection meter shows hidden and detected states. | ☐ | ☐ |
+| HUD elements appear correctly during gameplay. | ☐ | ☐ |
+| Interactive objects do not cause crashes during basic testing. | ☐ | ☐ |
+
+**Contributor:** Megan Mitchell
 
 ### Environment/Tech Systems Alpha Testing Checklist
 
@@ -242,7 +261,26 @@ Testing at this stage ensures that the complete 5-room level layout loads accura
 * Puzzle mechanics can be completed without soft-locking the player.
 * Mission objectives update correctly after each completed task.
 
+### Systems/UI and Interactive Object Beta Pass/Fail Checklist
 
+The Beta test will focus on polish, reliability, readability, and making sure the full system works without blocking game progress. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Interaction prompts are easy to read and appear at the correct time. | ☐ | ☐ |
+| Interaction prompts disappear correctly after the player moves away or completes the action. | ☐ | ☐ |
+| Doors open and close smoothly without trapping the player. | ☐ | ☐ |
+| Keycard and keypad systems work correctly throughout the full level. | ☐ | ☐ |
+| Pickups update the inventory, objective, or collectible counter correctly. | ☐ | ☐ |
+| Objective text updates in the correct order after each completed task. | ☐ | ☐ |
+| The stealth detection meter clearly shows hidden, suspicious, and detected states. | ☐ | ☐ |
+| HUD elements remain readable and do not block important gameplay information. | ☐ | ☐ |
+| Interactive objects still work after restarting the level or reloading a checkpoint. | ☐ | ☐ |
+| Interactive objects do not cause crashes, soft-locks, or progression issues. | ☐ | ☐ |
+| The player can complete all required interactions from the first room to the throne room. | ☐ | ☐ |
+| All failed Alpha items have been corrected and pass retesting. | ☐ | ☐ |
+
+**Contributor:** Megan Mitchell
 
 ### Environment/Tech Beta Testing Checklist
 
