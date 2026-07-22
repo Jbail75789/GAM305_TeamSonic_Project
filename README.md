@@ -29,6 +29,17 @@ Scenario 4: Third-Person
    * The game will focus on stealth-based infiltration, exploration, and strategic decision-making within an alien apocalypse setting.
    * The player will navigate hostile environments while avoiding enemies, solving puzzles, collecting important items, and completing objectives.
 
+### Scenario Selection (Update)
+
+**Scenario 4: Third-Person**
+The team selected the third-person scenario because it best supports the gameplay style we wanted to create. 
+The game focuses on stealth-based infiltration, exploration, and strategic decision-making in a post-apocalyptic city taken over by alien forces.
+
+**Level Design & Mission Flow:**
+* **City Ruins:** Navigate ruined streets and urban cover while avoiding alien patrol units and environmental hazards.
+* **The Access Ramp:** Infiltrate the approach zone and climb an exterior ramp leading up to the alien vessel.
+* **The Open Hangar:** Breach the ship's open hangar bay to enter the interior, disable security, and reach the final objective.
+
 
 ## Additional Elements Based on Scenario
 
