@@ -194,7 +194,7 @@ For the Beta stage, the UI will be improved with clearer menus, polished HUD ele
 
 ## Team Communication and Collaborative Method
 
-Communication Platform: Our team uses a dedicated Discord Sever with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
+Communication Platform: Our team uses a dedicated Discord Server with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
 
 Collaborative methods: We use our communication platforms to update project logs, schedules, and testing parameters directly to our teammates. Hosting our documentation in the main repository's README.md allows us to stay organized around our busy schedules, ensuring full transparency throughout the development process.
 
@@ -208,13 +208,30 @@ A block out level will be designed with testing that will focus completely on th
 
 ### Gameplay Systems Alpha Testing Checklist
 
-* The Alpha stage testing will focus on adding the core gameplay systems and verify at a basic level are working correctly.
-* Simple Player movement added and functions correctly.
-* Starting Camera controls made and function correctly.
-* Basic interaction systems created and respond correctly.
-* Prototype level environment loads without major issues.
-* Basic stealth mechanics and enemy detection systems function.
-* Placeholder assets have correct placement and functionality.
+The Alpha test will focus on making sure the core gameplay systems are present and functioning at a basic level. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Basic player movement functions correctly (walking, crouching, and jumping). | ☐ | ☐ |
+| Camera controls function correctly. | ☐ | ☐ |
+| Basic interaction systems respond correctly. | ☐ | ☐ |
+| Prototype level loads without major issues. | ☐ | ☐ |
+| Basic stealth mechanics function correctly. | ☐ | ☐ |
+| Placeholder gameplay systems function as intended. | ☐ | ☐ |
+
+### Enemy AI Alpha Pass/Fail Checklist
+
+The Alpha test will focus on making sure the basic enemy AI systems are present and working. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Enemy follows assigned patrol routes. | ☐ | ☐ |
+| Enemy detects the player within its vision range. | ☐ | ☐ |
+| Enemy begins chasing the player after detection. | ☐ | ☐ |
+| Enemy returns to patrol after losing sight of the player. | ☐ | ☐ |
+| Enemy AI navigates around obstacles without becoming stuck. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
 
 ### Systems/UI and Interactive Object Alpha Pass/Fail Checklist
 
@@ -236,16 +253,21 @@ The Alpha test will focus on making sure the basic systems are present and worki
 
 **Contributor:** Megan Mitchell
 
+
 ### Environment/Tech Systems Alpha Testing Checklist
 
-* The Alpha stage environment testing will focus on verifying that the level layout, basic assets, and technical systems are created, functional and support the intended gameplay experience.
-* The level layout loads correctly and supports player movement.
-* Basic collision is working correctly and prevents players from falling through the environment.
-* Placeholder assets are positioned correctly within the level.
-* Doors, pathways, and interactable areas are accessible.
-* Basic lighting allows players to navigate the environment.
-* Environmental objects do not create major gameplay obstacles.
+The Alpha test will focus on verifying that the level layout, placeholder assets, and technical systems are functional and support the intended gameplay experience. Any failed item will be reported through GitHub Issues, corrected, and retested.
 
+| Test Item | Pass | Fail |
+|---|---|---|
+| Level layout loads correctly. | ☐ | ☐ |
+| Basic collision prevents the player from falling through the environment. | ☐ | ☐ |
+| Placeholder assets are positioned correctly. | ☐ | ☐ |
+| Doors, pathways, and interactable areas are accessible. | ☐ | ☐ |
+| Basic lighting allows players to navigate the environment. | ☐ | ☐ |
+| Environmental objects do not create major gameplay obstacles. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
 
 
 ## Demo (Beta Stage) 
@@ -254,12 +276,31 @@ Testing at this stage ensures that the complete 5-room level layout loads accura
 
 ### Gameplay Systems Beta Testing Checklist
 
-* The Beta stage focuses on gameplay systems that will be tested and refined to ensure all core mechanics implemented function as intended. During the Beta stage testing will focus on verifying basic system implementation and that the player can complete the game without gameplay or progression issues.
-* Refine Player movements to feel responsive and ensure they function correctly (walking, running, crouching, and jumping).
-* Add Interaction prompts to appear when the player is near usable objects.
-* Doors, switches, keycard systems, and objectives function correctly.
-* Puzzle mechanics can be completed without soft-locking the player.
-* Mission objectives update correctly after each completed task.
+The Beta test will focus on refining gameplay systems and ensuring that the player can complete the game without gameplay or progression issues. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Player movement functions correctly (walking, running, crouching, and jumping). | ☐ | ☐ |
+| Interaction prompts appear when the player is near usable objects. | ☐ | ☐ |
+| Doors, switches, keycard systems, and objectives function correctly. | ☐ | ☐ |
+| Puzzle mechanics can be completed without soft-locking the player. | ☐ | ☐ |
+| Mission objectives update correctly after each completed task. | ☐ | ☐ |
+
+### Enemy AI Beta Pass/Fail Checklist
+
+The Beta test will focus on polishing enemy AI behaviors and ensuring all AI systems work reliably throughout the complete gameplay experience. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Patrol behavior is smooth and consistent. | ☐ | ☐ |
+| Detection feels fair and reliable. | ☐ | ☐ |
+| Enemy correctly searches the player's last known location. | ☐ | ☐ |
+| Enemy returns to patrol after completing a search. | ☐ | ☐ |
+| Enemy AI navigates around obstacles without becoming stuck. | ☐ | ☐ |
+| Multiple enemies coordinate correctly without causing gameplay issues. | ☐ | ☐ |
+| Enemy AI does not cause crashes or performance issues. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
 
 ### Systems/UI and Interactive Object Beta Pass/Fail Checklist
 
@@ -284,12 +325,18 @@ The Beta test will focus on polish, reliability, readability, and making sure th
 
 ### Environment/Tech Beta Testing Checklist
 
-* The Beta stage Environment and technical testing will focus on ensuring the level is playable refining visual consistency and support of a smooth stealth gameplay experience.
-* Double checking collision or areas where the player can fall through the map.
-* Doors and alternate pathways function as intended.
-* Lighting supports stealth gameplay without hiding important objectives or interactable objects.
-* Environmental objects do not unintentionally block player movement.
-* Objectives, escape routes, and mission progression function correctly.
+The Beta test will focus on refining the environment and ensuring that the level is visually consistent, technically functional, and supports the intended stealth gameplay experience. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| No missing collision or areas where the player can fall through the map. | ☐ | ☐ |
+| Doors and alternate pathways function as intended. | ☐ | ☐ |
+| Lighting supports stealth gameplay without hiding important objectives or interactable objects. | ☐ | ☐ |
+| Environmental objects do not unintentionally block player movement. | ☐ | ☐ |
+| Objectives, escape routes, and mission progression function correctly. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
+
   
 
 
