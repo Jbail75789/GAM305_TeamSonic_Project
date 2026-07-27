@@ -377,3 +377,55 @@ Gameplay and environment bugs will be reported through **GitHub Issues**. **Disc
 
 
 
+
+# Module Four Project Log - Team Reflection
+> **Course:** GAM305  
+> **Topic:** Systems/UI and Gameplay Reflection  
+> **Contributors:** Megan Mitchell, Charlie Upshaw  
+
+---
+
+## 👤 Reflection: Megan Mitchell
+
+### 1. What parts of the testing process did the team perceive to go well?
+The testing process went well because we were able to test each gameplay feature as we finished it instead of waiting until everything was complete. I focused on the interaction system and elevator. After testing, we confirmed that the player could stand on the elevator platform, press the interaction button, and ride the elevator correctly. Working in smaller sections made it easier to find and fix problems before they became bigger issues.
+
+### 2. How were bugs identified and corrected?
+Most bugs were identified through playtesting and by team members testing each other's work. We also used GitHub pull requests and Discord to discuss problems and resolve merge conflicts. Once a bug was found, we made the necessary changes, tested the feature again, and confirmed that it worked correctly before moving on.
+
+### 3. In terms of the QA and testing process, what would you do differently to improve the process?
+One thing I would improve is testing new features immediately after they are merged into the shared project. This would help catch integration issues sooner and reduce the amount of time spent tracking down bugs caused by multiple systems interacting with each other.
+
+### 4. What tools (chosen in Module Two) did you find successful in the development of your Alpha project? Why?
+GitHub, GitHub Desktop, Unreal Engine 5, and Discord were the most helpful tools during development. GitHub made it easy to work on separate branches without affecting everyone else's work. Pull requests helped us review changes before merging them into the project. Discord allowed us to quickly communicate, ask questions, and solve problems together.
+
+### 5. Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+The biggest challenge was dealing with merge conflicts when multiple people were working on related systems at the same time. Although GitHub handled version control well, resolving conflicts sometimes took extra time and coordination between team members.
+
+### 6. How did the team approach to the initial analysis of the Game Design Document contribute to the decision to use these tools and techniques?
+Reviewing the game design document early helped the team understand the project's goals and divide responsibilities. It also helped us decide to use GitHub for version control, Discord for communication, and Unreal Engine Blueprints for implementing gameplay systems. Having a clear plan made development more organized and made it easier to test features as they were completed.
+
+---
+
+## 👤 Reflection: Charlie Upshaw
+
+### 1. What parts of the testing process did the team perceive to go well?
+The team found that communicating often and following the QA and testing plan kept the testing process organized and consistent. Assigning separate testing tasks to different team members allowed us to identify issues from multiple perspectives. Regular playtesting helped verify that the level functioned as intended and that core gameplay mechanics worked correctly.
+
+### 2. How were bugs identified and corrected?
+Bugs were identified through repeated playtesting and by comparing the project's functionality against the Game's Storyboard to make sure things stayed consistent. Team members documented any issues they discovered, discussed possible solutions, and implemented fixes before testing again to confirm the problems had been resolved.
+
+### 3. In terms of the QA and testing process, what would you do differently to improve the process?
+If we were to complete the project again, we would begin testing earlier and conduct more frequent testing throughout development. This would allow bugs to be identified sooner, making them easier to fix and reducing the amount of work required later in the project.
+
+### 4. What tools (chosen in Module Two) did you find successful in the development of your Alpha project? Why?
+GitHub was one of the most valuable tools because it allowed team members to collaborate efficiently while keeping track of project changes through version control. Unreal Engine's Play in Editor (PIE) feature was also helpful because it allowed us to quickly test gameplay mechanics, level layout, and interactions without creating a packaged build.
+
+### 5. Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+Most of the tools we selected contributed positively to the project. However, merge conflicts in GitHub occasionally slowed development when multiple team members modified related files at the same time. Better communication and more frequent commits would help minimize these issues in future projects.
+
+### 6. How did the team approach to the initial analysis of the Game Design Document contribute to the decision to use these tools and techniques?
+Reviewing the Game Design Document at the beginning of the project helped the team understand the project goals, gameplay mechanics, and overall requirements early. This analysis guided our decision to use GitHub for collaboration and Unreal Engine's built-in testing tools to verify that the level met the intended design. Establishing these workflows early helped the team stay organized and make steady progress toward the Alpha milestone.
+
+
+
