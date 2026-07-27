@@ -381,7 +381,8 @@ Gameplay and environment bugs will be reported through **GitHub Issues**. **Disc
 # Module Four Project Log - Team Reflection
 > **Course:** GAM305  
 > **Topic:** Systems/UI and Gameplay Reflection  
-> **Contributors:** Megan Mitchell, Charlie Upshaw  
+> **Contributors:** Megan Mitchell, Charlie Upshaw, Michael Bailey
+  
 
 ---
 
