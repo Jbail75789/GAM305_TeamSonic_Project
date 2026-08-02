@@ -341,3 +341,49 @@ Gameplay and environment bugs will be reported through **GitHub Issues**. **Disc
 
 
 
+# Module Five Project Log - Team Reflection
+
+## 👥 Team Contributions
+* **Michael Bailey** *(Team Coordinator)* - Producer & Narrative, Level Design, Environment/Tech Art, Gameplay Programming
+* **Megan Mitchell** - Gameplay Programming, Systems/UI Design
+* **Charlie Upshaw** - Gameplay Programming, Systems/UI Design
+* **Cameron Clarke** - Gameplay Programming, Systems/UI, Producer & Narrative
+* **Steven Varga** - Modeling, Producer & Narrative, Gameplay Programming, Systems/UI
+* **Suprieme Addison** - Systems/UI, Gameplay Programming
+
+---
+
+## 🚀 Plan Analysis & Project Reflection
+
+### 1. What Went Well
+Looking back at the plan we mapped out in Module Three, our technical pipeline for building the core gameplay loop went very smoothly during this phase. Dividing up the programming tasks early on—specifically separating mechanics logic from level layout—allowed us to work without constantly stepping on each other's toes in the project file. Integrating built-in engine tools for player movement and collision handling also saved us a lot of time, allowing us to hit our key Beta milestones faster than expected.
+
+### 2. What Went Wrong
+Where we hit a bump was in our initial time estimates for bug fixing and asset integration. We underestimated how much time it would take to tweak our blueprint interactions once all the pieces were put together into a single level. We ran into a few unexpected physics glitches and trigger volume bugs during early testing, which took focus away from polishing the level aesthetics and forced us to crunch a bit right before the Beta submission.
+
+### 3. Integration of Previous Evaluations
+We took the feedback from our previous QA and technical plan reviews and actively built it into this stage. Specifically, we streamlined our testing process by setting up simple debug tools like spawn-point shortcuts and quick resets. This made it much easier for team members and testers to jump straight to specific mechanics and reproduce bugs quickly, directly addressing the feedback we received about efficient testing loops.
+
+### 4. Improvements for Collaboration & Development
+Moving forward into the final push, we need to improve our branch management and task communication. While our overall work split was effective, we occasionally had to pause work to resolve merge conflicts when updating main level files. Setting up clearer communication check-ins before pushing large changes to the repository will keep our workflow smoother and prevent unnecessary downtime.
+
+### 5. Unhelpful Tools & Techniques
+We found that attempting to use overly detailed, granular task-tracking spreadsheets was more of a distraction than a help. Trying to log every minor tweak or quick blueprint fix took time away from actual development without adding much real value. Switching to a simpler, high-level task board allowed us to track big-picture progress much more effectively without the administrative overhead.
+
+---
+
+## 📈 Beta Status & Path to Final Release
+
+### Current Stage: **Beta Completed**
+We have officially completed the **Beta Stage of Development** for our level. All core mechanics, player controls, and primary level paths are fully functional and ready for testing.
+
+### Final Release Roadmap
+To prepare for the Final Release deadline, our primary focus will shift from adding new features to polishing and stability:
+* [ ] Final bug fixing and resolving edge-case physics issues
+* [ ] Performance optimization and lightmass baking
+* [ ] Environmental and aesthetic polish
+* [ ] Final QA testing pass
+
+
+
+
