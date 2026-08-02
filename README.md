@@ -13,7 +13,7 @@ README Draft Updated By: Charlie Upshaw
 
 ## Team Sonic Members
 
-* Michael Bailey (Team Coordinator) - Producer & Narrative / Level Designer / Environment/Tech Artist
+* Michael Bailey (Team Coordinator) - Producer & Narrative / Level Designer / Environment/Tech Artist / Gameplay Programmer
 * Megan Mitchell - Gameplay Programmer / Systems/UI Designer 
 * Charlie Upshaw - Gameplay Programmer / Systems/UI Designer
 * Cameron Clarke - Gameplay Programmer / Systems/UI / Producer & Narrative
