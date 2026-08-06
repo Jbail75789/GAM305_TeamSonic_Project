@@ -13,12 +13,12 @@ README Draft Updated By: Charlie Upshaw
 
 ## Team Sonic Members
 
-* Michael Bailey (Team Coordinator) - Producer & Narrative / Environment/Tech Artist
-* Megan Mitchell - Gameplay Programmer / Systems/UI Designer / Environment/Tech Artist
-* Charlie Upshaw - Gameplay Programmer / Environment/Tech Artist
+* Michael Bailey (Team Coordinator) - Producer & Narrative / Level Designer / Environment/Tech Artist / Gameplay Programmer
+* Megan Mitchell - Gameplay Programmer / Systems/UI Designer 
+* Charlie Upshaw - Gameplay Programmer / Systems/UI Designer
 * Cameron Clarke - Gameplay Programmer / Systems/UI / Producer & Narrative
-* Steven Varga - Level Designer / Producer & Narrative / Gameplay Programmer / Systems / UI
-* Suprieme Addison - Systems/UI / Gameplay Programmer / Environment/Tech Artist
+* Steven Varga - Modeling / Producer & Narrative / Gameplay Programmer / Systems / UI
+* Suprieme Addison - Systems/UI / Gameplay Programmer 
 
 
 ## Scenario Selection
@@ -28,6 +28,17 @@ Scenario 4: Third-Person
    * The team selected the third-person scenario because it best supports the gameplay style we wanted to create. 
    * The game will focus on stealth-based infiltration, exploration, and strategic decision-making within an alien apocalypse setting.
    * The player will navigate hostile environments while avoiding enemies, solving puzzles, collecting important items, and completing objectives.
+
+### Scenario Selection (Update)
+
+**Scenario 4: Third-Person**
+The team selected the third-person scenario because it best supports the gameplay style we wanted to create. 
+The game focuses on stealth-based infiltration, exploration, and strategic decision-making in a post-apocalyptic city taken over by alien forces.
+
+**Level Design & Mission Flow:**
+* **City Ruins:** Navigate ruined streets and urban cover while avoiding alien patrol units and environmental hazards.
+* **The Access Ramp:** Infiltrate the approach zone and climb an exterior ramp leading up to the alien vessel.
+* **The Open Hangar:** Breach the ship's open hangar bay to enter the interior, disable security, and reach the final objective.
 
 
 ## Additional Elements Based on Scenario
@@ -194,7 +205,7 @@ For the Beta stage, the UI will be improved with clearer menus, polished HUD ele
 
 ## Team Communication and Collaborative Method
 
-Communication Platform: Our team uses a dedicated Discord Sever with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
+Communication Platform: Our team uses a dedicated Discord Server with organized text and voice channels. These are organized by assignments, roles, and planning for the quickest feedback. Long-term tasks, bug tracking, and new features are shared on our GitHub team repository's Kanban board.
 
 Collaborative methods: We use our communication platforms to update project logs, schedules, and testing parameters directly to our teammates. Hosting our documentation in the main repository's README.md allows us to stay organized around our busy schedules, ensuring full transparency throughout the development process.
 
@@ -208,13 +219,30 @@ A block out level will be designed with testing that will focus completely on th
 
 ### Gameplay Systems Alpha Testing Checklist
 
-* The Alpha stage testing will focus on adding the core gameplay systems and verify at a basic level are working correctly.
-* Simple Player movement added and functions correctly.
-* Starting Camera controls made and function correctly.
-* Basic interaction systems created and respond correctly.
-* Prototype level environment loads without major issues.
-* Basic stealth mechanics and enemy detection systems function.
-* Placeholder assets have correct placement and functionality.
+The Alpha test will focus on making sure the core gameplay systems are present and functioning at a basic level. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Basic player movement functions correctly (walking, crouching, and jumping). | ☐ | ☐ |
+| Camera controls function correctly. | ☐ | ☐ |
+| Basic interaction systems respond correctly. | ☐ | ☐ |
+| Prototype level loads without major issues. | ☐ | ☐ |
+| Basic stealth mechanics function correctly. | ☐ | ☐ |
+| Placeholder gameplay systems function as intended. | ☐ | ☐ |
+
+### Enemy AI Alpha Pass/Fail Checklist
+
+The Alpha test will focus on making sure the basic enemy AI systems are present and working. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Enemy follows assigned patrol routes. | ☐ | ☐ |
+| Enemy detects the player within its vision range. | ☐ | ☐ |
+| Enemy begins chasing the player after detection. | ☐ | ☐ |
+| Enemy returns to patrol after losing sight of the player. | ☐ | ☐ |
+| Enemy AI navigates around obstacles without becoming stuck. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
 
 ### Systems/UI and Interactive Object Alpha Pass/Fail Checklist
 
@@ -236,16 +264,21 @@ The Alpha test will focus on making sure the basic systems are present and worki
 
 **Contributor:** Megan Mitchell
 
+
 ### Environment/Tech Systems Alpha Testing Checklist
 
-* The Alpha stage environment testing will focus on verifying that the level layout, basic assets, and technical systems are created, functional and support the intended gameplay experience.
-* The level layout loads correctly and supports player movement.
-* Basic collision is working correctly and prevents players from falling through the environment.
-* Placeholder assets are positioned correctly within the level.
-* Doors, pathways, and interactable areas are accessible.
-* Basic lighting allows players to navigate the environment.
-* Environmental objects do not create major gameplay obstacles.
+The Alpha test will focus on verifying that the level layout, placeholder assets, and technical systems are functional and support the intended gameplay experience. Any failed item will be reported through GitHub Issues, corrected, and retested.
 
+| Test Item | Pass | Fail |
+|---|---|---|
+| Level layout loads correctly. | ☐ | ☐ |
+| Basic collision prevents the player from falling through the environment. | ☐ | ☐ |
+| Placeholder assets are positioned correctly. | ☐ | ☐ |
+| Doors, pathways, and interactable areas are accessible. | ☐ | ☐ |
+| Basic lighting allows players to navigate the environment. | ☐ | ☐ |
+| Environmental objects do not create major gameplay obstacles. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
 
 
 ## Demo (Beta Stage) 
@@ -254,12 +287,31 @@ Testing at this stage ensures that the complete 5-room level layout loads accura
 
 ### Gameplay Systems Beta Testing Checklist
 
-* The Beta stage focuses on gameplay systems that will be tested and refined to ensure all core mechanics implemented function as intended. During the Beta stage testing will focus on verifying basic system implementation and that the player can complete the game without gameplay or progression issues.
-* Refine Player movements to feel responsive and ensure they function correctly (walking, running, crouching, and jumping).
-* Add Interaction prompts to appear when the player is near usable objects.
-* Doors, switches, keycard systems, and objectives function correctly.
-* Puzzle mechanics can be completed without soft-locking the player.
-* Mission objectives update correctly after each completed task.
+The Beta test will focus on refining gameplay systems and ensuring that the player can complete the game without gameplay or progression issues. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Player movement functions correctly (walking, running, crouching, and jumping). | ☐ | ☐ |
+| Interaction prompts appear when the player is near usable objects. | ☐ | ☐ |
+| Doors, switches, keycard systems, and objectives function correctly. | ☐ | ☐ |
+| Puzzle mechanics can be completed without soft-locking the player. | ☐ | ☐ |
+| Mission objectives update correctly after each completed task. | ☐ | ☐ |
+
+### Enemy AI Beta Pass/Fail Checklist
+
+The Beta test will focus on polishing enemy AI behaviors and ensuring all AI systems work reliably throughout the complete gameplay experience. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| Patrol behavior is smooth and consistent. | ☐ | ☐ |
+| Detection feels fair and reliable. | ☐ | ☐ |
+| Enemy correctly searches the player's last known location. | ☐ | ☐ |
+| Enemy returns to patrol after completing a search. | ☐ | ☐ |
+| Enemy AI navigates around obstacles without becoming stuck. | ☐ | ☐ |
+| Multiple enemies coordinate correctly without causing gameplay issues. | ☐ | ☐ |
+| Enemy AI does not cause crashes or performance issues. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
 
 ### Systems/UI and Interactive Object Beta Pass/Fail Checklist
 
@@ -284,12 +336,18 @@ The Beta test will focus on polish, reliability, readability, and making sure th
 
 ### Environment/Tech Beta Testing Checklist
 
-* The Beta stage Environment and technical testing will focus on ensuring the level is playable refining visual consistency and support of a smooth stealth gameplay experience.
-* Double checking collision or areas where the player can fall through the map.
-* Doors and alternate pathways function as intended.
-* Lighting supports stealth gameplay without hiding important objectives or interactable objects.
-* Environmental objects do not unintentionally block player movement.
-* Objectives, escape routes, and mission progression function correctly.
+The Beta test will focus on refining the environment and ensuring that the level is visually consistent, technically functional, and supports the intended stealth gameplay experience. Any failed item will be reported through GitHub Issues, corrected, and retested.
+
+| Test Item | Pass | Fail |
+|---|---|---|
+| No missing collision or areas where the player can fall through the map. | ☐ | ☐ |
+| Doors and alternate pathways function as intended. | ☐ | ☐ |
+| Lighting supports stealth gameplay without hiding important objectives or interactable objects. | ☐ | ☐ |
+| Environmental objects do not unintentionally block player movement. | ☐ | ☐ |
+| Objectives, escape routes, and mission progression function correctly. | ☐ | ☐ |
+
+**Contributor:** Charlie Upshaw
+
   
 
 
@@ -327,6 +385,105 @@ Gameplay and environment bugs will be reported through **GitHub Issues**. **Disc
 
 **Contributors:** Michael Bailey, Charlie Upshaw, Megan Mitchell, Cameron Clarke, Steven Varga, Suprieme Addison
 
+
+
+
+<<<<<<< HEAD
+
+# Module Four Project Log - Team Reflection
+> **Course:** GAM305  
+> **Topic:** Systems/UI and Gameplay Reflection  
+> **Contributors:** Megan Mitchell, Charlie Upshaw, Michael Bailey
+  
+
+---
+
+## 👤 Reflection: Megan Mitchell
+
+### 1. What parts of the testing process did the team perceive to go well?
+The testing process went well because we were able to test each gameplay feature as we finished it instead of waiting until everything was complete. I focused on the interaction system and elevator. After testing, we confirmed that the player could stand on the elevator platform, press the interaction button, and ride the elevator correctly. Working in smaller sections made it easier to find and fix problems before they became bigger issues.
+
+### 2. How were bugs identified and corrected?
+Most bugs were identified through playtesting and by team members testing each other's work. We also used GitHub pull requests and Discord to discuss problems and resolve merge conflicts. Once a bug was found, we made the necessary changes, tested the feature again, and confirmed that it worked correctly before moving on.
+
+### 3. In terms of the QA and testing process, what would you do differently to improve the process?
+One thing I would improve is testing new features immediately after they are merged into the shared project. This would help catch integration issues sooner and reduce the amount of time spent tracking down bugs caused by multiple systems interacting with each other.
+
+### 4. What tools (chosen in Module Two) did you find successful in the development of your Alpha project? Why?
+GitHub, GitHub Desktop, Unreal Engine 5, and Discord were the most helpful tools during development. GitHub made it easy to work on separate branches without affecting everyone else's work. Pull requests helped us review changes before merging them into the project. Discord allowed us to quickly communicate, ask questions, and solve problems together.
+
+### 5. Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+The biggest challenge was dealing with merge conflicts when multiple people were working on related systems at the same time. Although GitHub handled version control well, resolving conflicts sometimes took extra time and coordination between team members.
+
+### 6. How did the team approach to the initial analysis of the Game Design Document contribute to the decision to use these tools and techniques?
+Reviewing the game design document early helped the team understand the project's goals and divide responsibilities. It also helped us decide to use GitHub for version control, Discord for communication, and Unreal Engine Blueprints for implementing gameplay systems. Having a clear plan made development more organized and made it easier to test features as they were completed.
+
+---
+
+## 👤 Reflection: Charlie Upshaw
+
+### 1. What parts of the testing process did the team perceive to go well?
+The team found that communicating often and following the QA and testing plan kept the testing process organized and consistent. Assigning separate testing tasks to different team members allowed us to identify issues from multiple perspectives. Regular playtesting helped verify that the level functioned as intended and that core gameplay mechanics worked correctly.
+
+### 2. How were bugs identified and corrected?
+Bugs were identified through repeated playtesting and by comparing the project's functionality against the Game's Storyboard to make sure things stayed consistent. Team members documented any issues they discovered, discussed possible solutions, and implemented fixes before testing again to confirm the problems had been resolved.
+
+### 3. In terms of the QA and testing process, what would you do differently to improve the process?
+If we were to complete the project again, we would begin testing earlier and conduct more frequent testing throughout development. This would allow bugs to be identified sooner, making them easier to fix and reducing the amount of work required later in the project.
+
+### 4. What tools (chosen in Module Two) did you find successful in the development of your Alpha project? Why?
+GitHub was one of the most valuable tools because it allowed team members to collaborate efficiently while keeping track of project changes through version control. Unreal Engine's Play in Editor (PIE) feature was also helpful because it allowed us to quickly test gameplay mechanics, level layout, and interactions without creating a packaged build.
+
+### 5. Were there any tools or techniques that you did not find helpful in the success of your project development? Why?
+Most of the tools we selected contributed positively to the project. However, merge conflicts in GitHub occasionally slowed development when multiple team members modified related files at the same time. Better communication and more frequent commits would help minimize these issues in future projects.
+
+### 6. How did the team approach to the initial analysis of the Game Design Document contribute to the decision to use these tools and techniques?
+Reviewing the Game Design Document at the beginning of the project helped the team understand the project goals, gameplay mechanics, and overall requirements early. This analysis guided our decision to use GitHub for collaboration and Unreal Engine's built-in testing tools to verify that the level met the intended design. Establishing these workflows early helped the team stay organized and make steady progress toward the Alpha milestone.
+=======
+# Module Five Project Log - Team Reflection
+
+## 👥 Team Contributions
+* **Michael Bailey** *(Team Coordinator)* - Producer & Narrative, Level Design, Environment/Tech Art, Gameplay Programming
+* **Megan Mitchell** - Gameplay Programming, Systems/UI Design
+* **Charlie Upshaw** - Gameplay Programming, Systems/UI Design
+* **Cameron Clarke** - Gameplay Programming, Systems/UI, Producer & Narrative
+* **Steven Varga** - Modeling, Producer & Narrative, Gameplay Programming, Systems/UI
+* **Suprieme Addison** - Systems/UI, Gameplay Programming
+
+---
+
+## 🚀 Plan Analysis & Project Reflection
+
+### 1. What Went Well
+Looking back at the plan we mapped out in Module Three, our technical pipeline for building the core gameplay loop went very smoothly during this phase. Dividing up the programming tasks early on—specifically separating mechanics logic from level layout—allowed us to work without constantly stepping on each other's toes in the project file. Integrating built-in engine tools for player movement and collision handling also saved us a lot of time, allowing us to hit our key Beta milestones faster than expected.
+
+### 2. What Went Wrong
+Where we hit a bump was in our initial time estimates for bug fixing and asset integration. We underestimated how much time it would take to tweak our blueprint interactions once all the pieces were put together into a single level. We ran into a few unexpected physics glitches and trigger volume bugs during early testing, which took focus away from polishing the level aesthetics and forced us to crunch a bit right before the Beta submission.
+
+### 3. Integration of Previous Evaluations
+We took the feedback from our previous QA and technical plan reviews and actively built it into this stage. Specifically, we streamlined our testing process by setting up simple debug tools like spawn-point shortcuts and quick resets. This made it much easier for team members and testers to jump straight to specific mechanics and reproduce bugs quickly, directly addressing the feedback we received about efficient testing loops.
+
+### 4. Improvements for Collaboration & Development
+Moving forward into the final push, we need to improve our branch management and task communication. While our overall work split was effective, we occasionally had to pause work to resolve merge conflicts when updating main level files. Setting up clearer communication check-ins before pushing large changes to the repository will keep our workflow smoother and prevent unnecessary downtime.
+
+### 5. Unhelpful Tools & Techniques
+We found that attempting to use overly detailed, granular task-tracking spreadsheets was more of a distraction than a help. Trying to log every minor tweak or quick blueprint fix took time away from actual development without adding much real value. Switching to a simpler, high-level task board allowed us to track big-picture progress much more effectively without the administrative overhead.
+
+---
+
+## 📈 Beta Status & Path to Final Release
+
+### Current Stage: **Beta Completed**
+We have officially completed the **Beta Stage of Development** for our level. All core mechanics, player controls, and primary level paths are fully functional and ready for testing.
+
+### Final Release Roadmap
+To prepare for the Final Release deadline, our primary focus will shift from adding new features to polishing and stability:
+* [ ] Final bug fixing and resolving edge-case physics issues
+* [ ] Performance optimization and lightmass baking
+* [ ] Environmental and aesthetic polish
+* [ ] Final QA testing pass
+
+>>>>>>> origin/main
 
 
 
