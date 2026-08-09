@@ -1,0 +1,134 @@
+[33mdf0b0a6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mCameron/AI[m[33m, [m[1;31morigin/Cameron/AI[m[33m)[m Resolved binary asset conflicts with Development
+[33m230e43c[m Added AIPerception Functionality, Player Animations and Montages, and Pistol
+[33m5f76999[m[33m ([m[1;31morigin/Development[m[33m)[m Merge pull request #42 from Jbail75789/feature/Megan-WeaponSystem
+[33m26d1623[m[33m ([m[1;31morigin/feature/Megan-WeaponSystem[m[33m)[m Merge branch 'feature/Megan-WeaponSystem' of https://github.com/Jbail75789/GAM305_TeamSonic_Project into feature/Megan-WeaponSystem
+[33ma4e0a23[m Rebuild weapon system and clean up unused muzzle flash assets
+[33mfd4618f[m Merge pull request #41 from Jbail75789/feature/Megan-WeaponSystem
+[33mbdf1843[m Resolved binary conflict on BP_PlayerChar
+[33ma5d625f[m Merge branch 'Development' into feature/Megan-WeaponSystem
+[33md32bf58[m Add weapon firing, HUD, and muzzle flash system
+[33m0f968ed[m Merge pull request #40 from Jbail75789/feature/Charlie-EnemyAI
+[33m8733baa[m Add weapon pickup and aiming system
+[33m1fa8904[m[33m ([m[1;31morigin/feature/Charlie-EnemyAI[m[33m)[m WIP: Changed drone AI controller back to boss and changed collision for health pickup
+[33m2849651[m Adding Base AI Behavior Trees and Perception Values
+[33mfed7597[m Merge pull request #37 from Jbail75789/feature/Suprieme-Environmental-Damage-Traps
+[33mc83ac80[m[33m ([m[1;31morigin/feature/Suprieme-Environmental-Damage-Traps[m[33m)[m Resolved binary conflict on BP_SpikeTrap
+[33md9cb74d[m Map updates and changes
+[33m868a24d[m Merge pull request #38 from Jbail75789/Pickups
+[33m7c2cbd4[m[33m ([m[1;31morigin/Pickups[m[33m, [m[1;32mPickups[m[33m)[m Fixed Health injectjor HUD interaction
+[33m6c40559[m Added gun meshes to the level
+[33ma0129be[m Updated logic of spikes and barrel. Both should work properly.
+[33m68b0632[m Updated Ghost Ruins Alpha level map
+[33mbdf6fe8[m[33m ([m[1;31morigin/Final-Beta[m[33m)[m Merged feature/Megan-SlidingDoor and resolved door blueprint conflict
+[33m14ce1cc[m[33m ([m[1;31morigin/feature/Megan-SlidingDoor[m[33m)[m Change sliding door interaction key to R
+[33m3e9e75f[m Merge branch 'Development' of https://github.com/Jbail75789/GAM305_TeamSonic_Project into Development
+[33mcddff10[m Merged feature/Charlie-EnemyAI and resolved asset conflicts
+[33mf569871[m Merge pull request #35 from Jbail75789/Pickups
+[33m2bdf510[m Added Injector Pickup and HUD Functionalities
+[33mad2a0fe[m WIP: fixed drone not firing on player and not moving drone movement still needs smoothing
+[33m4b56d33[m Added level design assets, updated AI and sliding door, cleaned up unused content
+[33m864970b[m Merge remote-tracking branch 'origin/feature/Megan-KeycardSystem' into Development
+[33m21a5a36[m Resolved README merge conflict
+[33m1c12e99[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update README with project log and reflections
+[33mc881fff[m Update main level layout
+[33mfdeca79[m Remove TypeTween plugin
+[33mf6c9b5e[m Fix floor navigation mesh and level geometry setup
+[33m2507539[m Merge pull request #33 from Jbail75789/Pickups
+[33m64ad819[m Update README.md
+[33m527fb04[m Merge pull request #32 from Jbail75789/feature/Charlie-EnemyAI
+[33m646b21b[m Added AI firing on the player and changed health pickup mesh
+[33mc89a6b9[m Added Cloaking Device Funciton
+[33m1408ff3[m Create working sliding door Blueprint
+[33m4777875[m Fix AI drone movement, Behavior Tree logic, and StopShooting task
+[33m0f14841[m Merge pull request #31 from Jbail75789/feature/Charlie-EnemyAI
+[33m9950dff[m Added Player Firing and fixed some errors, Blackboard Still WIP
+[33mda806d8[m Update team member roles in README.md
+[33m50deac3[m Merge pull request #28 from Jbail75789/feature/Charlie-EnemyAI
+[33m60ef0e9[m WIP: Fixed the detection to fill properly Will continue fixing AI tasks
+[33m40a87af[m[33m ([m[1;31morigin/feature/Steven-game-model[m[33m)[m Merge pull request #27 from Jbail75789/feature/Charlie-EnemyAI
+[33m97d26d2[m WIP: Fixed The door interact so the animation plays correctly
+[33me2e8e1d[m Add new buildings to main map
+[33m416c4ef[m[33m ([m[1;31morigin/feature/ship-hangar[m[33m)[m Add interior geometry and layout for the spaceship
+[33m3196b8c[m Redo level floor layout and update ship geometry
+[33me7c293d[m Merge branch 'Development' of https://github.com/Jbail75789/GAM305_TeamSonic_Project into Development
+[33m6e7a007[m Add enemy ship mesh, update levels, and clean up dune dweller assets
+[33m269dc4c[m Added movement systems, animations, and skeletons
+[33m0342f4d[m Add spike trap blueprint, broken wall pieces, and level layout updates
+[33m2ede566[m Add modular building assets, updated level maps, and material tweaks
+[33m483d463[m Add modular building assets, updated level maps, and material tweaks
+[33m2ea3ec5[m Add core layout geometry and floor structures to level
+[33mb610e36[m Add core layout geometry and floor structures to level
+[33m5cd1f1b[m Fix level collision, PlayerStart spawn issue, and clean up boundary volumes
+[33m83585ca[m Merge resolved: Kept local level design edits
+[33m493e2db[m Level Design: Updated layout, collision, and player spawn points
+[33md2095ff[m Rebuilt elevator blueprint
+[33m44053eb[m[33m ([m[1;31morigin/Final-Alpha[m[33m)[m Merged Charlie's Enemy AI branch and accepted Charlie's level layout
+[33m2c6286f[m Final-Alpha Changes
+[33m511d499[m Set custom Player BP as Default Pawn and added AI Drone assets
+[33m303290e[m Final-Alpha Fixes and changes
+[33mf3ccbcd[m Add Michael Bailey as a contributor
+[33m0ac6297[m Document team reflections on QA and testing process
+[33m98a2173[m Placed doors, traps, and lighting in Lvl_GhostRuins_Alpha
+[33m254f2b9[m Merge pull request #23 from Jbail75789/feature/Charlie-EnemyAI
+[33m375cbbb[m Resolve Duplicate Conflict
+[33mde6f728[m Merge branch 'feature/Charlie-EnemyAI' of https://github.com/Jbail75789/GAM305_TeamSonic_Project into feature/Charlie-EnemyAI
+[33mc9db5da[m Added Crouch Input, Fixed Compiler Error, Fixed other errors
+[33m568ec24[m Committed BP_Elevator asset
+[33m02496f3[m Saved level with Megan's elevator placed
+[33m7d601ac[m Merge pull request #21 from Jbail75789/feature/Megan-Elevator
+[33m2d3456c[m Placed Megan's elevator into the main map
+[33mb0c42a4[m[33m ([m[1;31morigin/feature/Megan-Elevator[m[33m)[m Resolved elevator map conflict
+[33md0a8662[m Added working elevator interaction
+[33mf6f858b[m Merge pull request #20 from Jbail75789/feature/Charlie-EnemyAI
+[33m46f7748[m Resolved conflicts using Charlie's map and boss blueprint
+[33m8f2fc33[m Added some greyboxing, Refined all merged Blueprints and made sure they all compile with no errors.
+[33m5569b34[m Added level lighting and additional obstacles
+[33maebf3e9[m Added Obstacles
+[33m11e97b8[m[33m ([m[1;31morigin/feature/Cameron-Movement[m[33m, [m[1;32mCameron-MovementPreAlpha[m[33m)[m Fixed building wall
+[33mb70b701[m Merge pull request #19 from Jbail75789/feature/Suprieme-Environmental-Damage-Traps
+[33m77c3370[m Created three environmental traps.
+[33md5e671f[m Merge pull request #18 from Jbail75789/feature/Charlie-EnemyAI
+[33m3bfeff2[m Added migrated systems to Charlie sandbox folder
+[33mbf32522[m Merge pull request #17 from Jbail75789/feature/Charlie-EnemyAI
+[33m21f9beb[m Added Enemy AI section checklist/ Changed other checklists to be consistent pass/fail, fixed typo
+[33mdc469a3[m Added AI drone static mesh and BP_AIDrone Blueprint
+[33m8d552a5[m Built Elevator needs code
+[33ma6eee43[m Updated README with city ruins level flow and hangar infiltration setting
+[33med68b5b[m[33m ([m[1;32mmain[m[33m)[m Revise scenario selection and level design in README
+[33m3def800[m Updated level geometry and building layouts in Alpha map
+[33m4af5be7[m Updated editor configurations
+[33m9629875[m Updated level : Bottom Floor SpaceShip
+[33mac53c39[m Set Lvl_GhostRuins_Alpha as default startup and game map
+[33mac691fa[m Updated Alpha level layout added start area
+[33mda25e0a[m Add Lvl_GhostRuins_Alpha shell for Gothic Post-Apocalyptic blockout
+[33mb32fdc2[m Merge pull request #16 from Jbail75789/Development
+[33mb08aede[m Add base project content and project file
+[33mfd14e39[m Merge pull request #13 from Jbail75789/Development
+[33m8cd49c3[m Merge pull request #12 from Jbail75789/feature/Megan-InteractiveObjects
+[33m3ef6d5b[m[33m ([m[1;31morigin/feature/Megan-InteractiveObjects[m[33m)[m Update README with testing checklists
+[33mdc8e062[m Fix typo in communication platform description
+[33m0f8221a[m Format README for consistency in test plan section
+[33m7b32a19[m Refactor section headers in README.md
+[33m93aa6a7[m Update section headers in README.md for clarity
+[33m6ddf8f4[m Fix header formatting in README.md
+[33m54386a3[m Fix formatting of Module Three Project Log header
+[33m18f3060[m Fix header formatting in README.md
+[33meba0bec[m Remove empty line from README.md
+[33m3f27fbd[m Update README.md
+[33m1bbc8cc[m Add Megan UI and environment contribution
+[33mfe19bb0[m Update README.md
+[33mac95d01[m Clarify roles of Team Sonic members
+[33m60f2567[m Update README.md
+[33me4126d8[m Update README.md
+[33m13a5389[m Update README.md
+[33m7163a1e[m Update README.md
+[33m6f467e7[m Fix formatting of Suprieme Addison's role in README
+[33m0fae822[m Update team member roles in README.md
+[33m4940673[m Update team member roles in README
+[33me342e01[m Update README.md
+[33m9a79789[m Update contributor details for Michael Bailey
+[33m6a9686a[m Update2 README.md
+[33m4a31314[m Update README.md
+[33m030e8e5[m Add Michael Bailey to project plan
+[33m6eabe26[m Add project plan section to README
+[33md9be6b8[m Initial commit
