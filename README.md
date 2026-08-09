@@ -387,3 +387,40 @@ To prepare for the Final Release deadline, our primary focus will shift from add
 
 
 
+---
+
+## Module Six Project Log - Team Reflection
+** Contributors:** Mike, Megan, Cameron, Charlie, Steven, Suprieme
+
+### 1. Plan Analysis from an Artist’s Standpoint
+From an artistic and level design perspective, evaluating our Module Three plan revealed both strengths and bottlenecks in our pipeline.
+* **Asset Integration:** Importing environment props and greyboxing the level layout went smoothly, allowing us to establish spatial awareness early on.
+* **Pipeline Bottlenecks:** Managing binary files (`.uasset`) in Git presented a significant challenge. Because standard Git merge tools cannot automatically combine binary files, simultaneous edits to central assets—such as player blueprints, animation blueprints, and map files—resulted in merge conflicts that required careful manual resolution and UE sub-level organization.
+
+### 2. What Went Well (In Relation to Last Stage Evaluation)
+* **Modular Task Allocation:** Delegating distinct feature responsibilities (e.g., weapon mechanics to Megan, AI perception/behavior trees to Cameron, and environment/level design to Mike) prevented most day-to-day asset overwrites.
+* **Rapid Issue Resolution:** When binary merge conflicts occurred on branches like `Cameron/AI`, the team quickly established a workflow using local UE instance copies and sub-level merges to preserve everyone's work without losing functionality.
+
+### 3. What Went Wrong (In Relation to Last Stage Evaluation)
+* **Concurrent Map & Player Edits:** Multiple team members editing core shared files (`BP_PlayerChar`, `IMC_Default`, and `.umap` level files) simultaneously led to Git branch conflicts during pull requests.
+* **Communication Gaps on Pulls:** Pulling remote branches into local feature branches before verifying local clean states occasionally required stash and checkout commands to avoid blocked merges.
+
+### 4. Integration of Previous Stage Evaluations
+In response to previous feedback and evaluations:
+* We integrated updated player character assets, weapon pickup logic, and HUD elements into `Development` before merging secondary feature branches.
+* We adopted strict Git pull protocols: before starting work on a level or feature, team members pull the latest `Development` updates locally to ensure dependencies (such as new blueprints or animations) exist before referencing them.
+
+### 5. Process & Collaboration Improvements
+If we were to restart or refine this stage of development:
+* **Enforce Git LFS / Lockable Assets:** We would configure Git LFS (Large File Storage) with file locking enabled for `.uasset` files so team members know when a level or core blueprint is being actively edited.
+* **Utilize Unreal Engine Sub-Levels Early:** We would break the main world into smaller persistent sub-levels immediately, allowing the level designer and prop/lighting artists to work on the same world at the same time without touching the same `.umap` file.
+
+### 6. Tools & Techniques Assessment
+* **Helpful:** * **Git Bash Command Line:** Provided full control over resolving branch conflicts, fetching remote updates, and managing branch state safely.
+  * **Unreal Engine Sub-Levels / Clipboard Copy-Paste:** Crucial for migrating actors and asset placement between level instances when standard Git merges weren't possible.
+* **Less Helpful / Unhelpful:**
+  * **GitHub Native PR Conflict Resolver for Binary Files:** GitHub’s online conflict resolution tool is unsuitable for `.uasset` files because choosing one side completely overwrites the binary file. Resolving conflicts directly on GitHub proved unhelpful and had to be performed locally via Unreal Engine instead.
+
+
+
+
